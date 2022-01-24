@@ -14,9 +14,9 @@ options=("Start" "Purpur" "Mohist" "Fabric" "Forge" "DL" "Stop")
 select opt in "${options[@]}"
 do
     case $opt in
-		"Start")
-			echo -e "\033[0;37m==============================\033[00m"
-			echo -e "\033[01;32mHow much RAM do you want to allocate?\033[00m"
+	"Start")
+	    echo -e "\033[0;37m==============================\033[00m"
+	    echo -e "\033[01;32mHow much RAM do you want to allocate?\033[00m"
             echo -e -n "\033[1;34mRAM \033[00m"
             read -r ram
             
